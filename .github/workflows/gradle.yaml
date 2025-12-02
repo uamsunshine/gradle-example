@@ -60,10 +60,10 @@ jobs:
           MAVEN_REPO: 'your-target-repo-key' # 请替换为实际的仓库键
         run: |
           # 直接运行你在build.gradle.kts中配置的artifactoryPublish任务
-          printenv
           cat > ./gradle.properties <<EOF
           currentVersion=1.0-SNAPSHOT
           ARTIFACTORY_USER: 'hl'
-          JFROG_ACCESS_TOKEN: ${{ env.ACCESS_TOKEN }}
+          JFROG_ACCESS_TOKEN:  ${JFROG_ACCESS_TOKEN}
           EOF
+          echo "=== 创建的 gradle.properties 文件内容 ==="
           cat ./gradle.properties
