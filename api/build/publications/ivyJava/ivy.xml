@@ -5,7 +5,7 @@
   <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
-  <info organisation="org.jfrog.test.gradle.publish" module="api" revision="1.0-SNAPSHOT" status="integration" publication="20251202172300" e:architecture="amd64"/>
+  <info organisation="org.jfrog.test.gradle.publish" module="api" revision="1.0-SNAPSHOT" status="integration" publication="20251202173149" e:architecture="amd64"/>
   <configurations>
     <conf name="compile" visibility="public"/>
     <conf name="default" visibility="public" extends="runtime"/>
