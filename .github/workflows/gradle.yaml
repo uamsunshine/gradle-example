@@ -62,7 +62,7 @@ jobs:
           # 直接运行你在build.gradle.kts中配置的artifactoryPublish任务
           cat > ./gradle.properties <<EOF
           currentVersion=1.0-SNAPSHOT
-          ARTIFACTORY_USER: 'hl'
+          ARTIFACTORY_USER: hl
           JFROG_ACCESS_TOKEN:  ${JFROG_ACCESS_TOKEN}
           EOF
           echo "=== 创建的 gradle.properties 文件内容 ==="
