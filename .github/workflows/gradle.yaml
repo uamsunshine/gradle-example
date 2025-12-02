@@ -67,3 +67,5 @@ jobs:
           EOF
           echo "=== 创建的 gradle.properties 文件内容 ==="
           cat ./gradle.properties
+          # 3. 然后执行发布任务
+          ./gradlew artifactoryPublish
