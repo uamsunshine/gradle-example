@@ -1,0 +1,13 @@
+version: 1
+type: gradle
+resolver:
+    repo: zhl-gradle-virtual
+    serverId: demo
+deployer:
+    repo: zhl-gradle-virtual
+    serverId: demo
+    deployMavenDescriptors: true
+    deployIvyDescriptors: true
+    ivyPattern: '[organization]/[module]/ivy-[revision].xml'
+    artifactPattern: '[organization]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]'
+useWrapper: true

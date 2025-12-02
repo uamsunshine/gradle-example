@@ -20,7 +20,14 @@ allprojects {
     status = "Integration"
 
     repositories {
-        maven("http://127.0.0.1:8081/artifactory/libs-release")
+        maven {
+            url = uri("https://demo.jfrogchina.com/artifactory/zhl-gradle-virtual")
+            credentials {
+                // 从与发布任务相同的地方读取凭证
+                username = providers.environmentVariable("ARTIFACTORY_USER").orNull
+                password = providers.environmentVariable("JFROG_ACCESS_TOKEN").orNull
+            }
+        }
     }
 }
 
@@ -84,12 +91,12 @@ project("api") {
 configure<org.jfrog.gradle.plugin.artifactory.dsl.ArtifactoryPluginConvention> {
     clientConfig.isIncludeEnvVars = true
 
-    setContextUrl("http://127.0.0.1:8081/artifactory")
+    setContextUrl("https://demo.jfrogchina.com/artifactory")
     publish {
         repository {
-            setRepoKey("libs-snapshot-local") // The Artifactory repository key to publish to
-            setUsername(providers.gradleProperty("artifactory_user").getOrNull()) // The publisher user name
-            setPassword(providers.gradleProperty("artifactory_password").getOrNull()) // The publisher password
+            setRepoKey("zhl-gradle-virtual") // The Artifactory repository key to publish to
+            setUsername(providers.environmentVariable("ARTIFACTORY_USER").orNull) // The publisher user name
+            setPassword(providers.environmentVariable("JFROG_ACCESS_TOKEN").orNull) // The publisher password
             // This is an optional section for configuring Ivy publication (when publishIvy = true).
             ivy {
                 setIvyLayout("[organization]/[module]/ivy-[revision].xml")

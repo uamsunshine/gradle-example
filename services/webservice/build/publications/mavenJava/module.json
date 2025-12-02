@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jfrog.test.gradle.publish",
+    "module": "webservice",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "webservice-1.0-SNAPSHOT.jar",
+          "url": "webservice-1.0-SNAPSHOT.jar",
+          "size": 1234,
+          "sha512": "36fca94e35120de3b323591c6e7710794bd882c9aeea493270b2df6ea3504cc9c2e043fd23207ba17d0998890c65553c9554c2acf364a604b9e97c1b850f1868",
+          "sha256": "06d7c1eeeaccc72e770270618801266a050100772a64c21acf97beb7aa48ce9a",
+          "sha1": "ac80d4ea7de22f32f32f8b205308cddd6ed644a2",
+          "md5": "3f31a9b9abe63c68c5f78739f93cf5e9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jfrog.test.gradle.publish",
+          "module": "shared",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "commons-collections",
+              "type": "jar",
+              "extension": "jar"
+            }
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.4"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "commons-lang",
+              "type": "jar",
+              "extension": "jar"
+            }
+          }
+        },
+        {
+          "group": "org.apache.wicket",
+          "module": "wicket",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "org.jfrog.test.gradle.publish",
+          "module": "api",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webservice-1.0-SNAPSHOT.jar",
+          "url": "webservice-1.0-SNAPSHOT.jar",
+          "size": 1234,
+          "sha512": "36fca94e35120de3b323591c6e7710794bd882c9aeea493270b2df6ea3504cc9c2e043fd23207ba17d0998890c65553c9554c2acf364a604b9e97c1b850f1868",
+          "sha256": "06d7c1eeeaccc72e770270618801266a050100772a64c21acf97beb7aa48ce9a",
+          "sha1": "ac80d4ea7de22f32f32f8b205308cddd6ed644a2",
+          "md5": "3f31a9b9abe63c68c5f78739f93cf5e9"
+        }
+      ]
+    }
+  ]
+}

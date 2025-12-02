@@ -1,0 +1,338 @@
+{
+  "properties" : {
+    "idea.io.use.nio2" : "true",
+    "awt.toolkit" : "sun.lwawt.macosx.LWCToolkit",
+    "java.specification.version" : "11",
+    "sun.cpu.isalist" : "",
+    "sun.jnu.encoding" : "UTF-8",
+    "buildInfo.env.HOMEBREW_REPOSITORY" : "/opt/homebrew",
+    "buildInfo.env.PWD" : "/Users/hailangz/Desktop/work/jfrog-learn/project-examples-master/gradle-examples/gradle-kts-example-publish",
+    "sun.arch.data.model" : "64",
+    "buildInfo.env.SHELL" : "/bin/zsh",
+    "buildInfo.env.JENV_SHELL" : "zsh",
+    "java.vendor.url" : "http://www.azul.com/",
+    "buildInfo.env.SSH_AUTH_SOCK" : "/private/tmp/com.apple.launchd.qYTqt479eR/Listeners",
+    "buildInfo.env.SDKMAN_BROKER_API" : "https://broker.sdkman.io",
+    "buildInfo.env.TERM_PROGRAM" : "Apple_Terminal",
+    "buildInfo.env.XPC_SERVICE_NAME" : "0",
+    "buildInfo.env.SDKMAN_CANDIDATES_DIR" : "/Users/hailangz/.sdkman/candidates",
+    "sun.boot.library.path" : "/Users/hailangz/.sdkman/candidates/java/11.0.28.fx-zulu/zulu-11.jdk/Contents/Home/lib",
+    "sun.java.command" : "org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.6.2",
+    "buildInfo.env.MAVEN_HOME" : "/Users/hailangz/.sdkman/candidates/maven/current",
+    "jdk.debug" : "release",
+    "java.specification.vendor" : "Oracle Corporation",
+    "java.version.date" : "2025-07-15",
+    "java.home" : "/Users/hailangz/.sdkman/candidates/java/11.0.28.fx-zulu/zulu-11.jdk/Contents/Home",
+    "file.separator" : "/",
+    "java.vm.compressedOopsMode" : "Zero based",
+    "line.separator" : "\n",
+    "jdk.vendor.version" : "Zulu11.82+19-CA",
+    "java.vm.specification.vendor" : "Oracle Corporation",
+    "java.specification.name" : "Java Platform API Specification",
+    "buildInfo.env.HOMEBREW_PREFIX" : "/opt/homebrew",
+    "buildInfo.env.INFOPATH" : "/opt/homebrew/share/info:",
+    "buildInfo.env.JAVA_MAIN_CLASS_34178" : "org.gradle.wrapper.GradleWrapperMain",
+    "sun.management.compiler" : "HotSpot 64-Bit Tiered Compilers",
+    "java.runtime.version" : "11.0.28+6-LTS",
+    "user.name" : "hailangz",
+    "buildInfo.env.TERM_SESSION_ID" : "A8F186FF-98E4-4F3B-BC5D-F4CC5F32CC47",
+    "file.encoding" : "UTF-8",
+    "psi.incremental.reparse.depth.limit" : "1000",
+    "java.vendor.version" : "Zulu11.82+19-CA",
+    "java.io.tmpdir" : "/var/folders/wn/704rz51x7bdfywzw4bfx3fdh0000gn/T/",
+    "java.version" : "11.0.28",
+    "java.vm.specification.name" : "Java Virtual Machine Specification",
+    "java.awt.printerjob" : "sun.lwawt.macosx.CPrinterJob",
+    "sun.os.patch.level" : "unknown",
+    "buildInfo.env.JENV_LOADED" : "1",
+    "java.library.path" : "/Users/hailangz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.",
+    "java.vendor" : "Azul Systems, Inc.",
+    "java.specification.maintenance.version" : "3",
+    "buildInfo.env.TERM" : "xterm-256color",
+    "sun.io.unicode.encoding" : "UnicodeBig",
+    "library.jansi.path" : "/Users/hailangz/.gradle/native/jansi/1.18/osx",
+    "buildInfo.env.JAVA_HOME" : "/Users/hailangz/.sdkman/candidates/java/current",
+    "gopherProxySet" : "false",
+    "buildInfo.env.__CF_USER_TEXT_ENCODING" : "0x1F5:0x0:0x0",
+    "buildInfo.env.SDKMAN_CANDIDATES_API" : "https://api.sdkman.io/2",
+    "buildInfo.env.SHLVL" : "1",
+    "java.class.path" : "/Users/hailangz/.gradle/wrapper/dists/gradle-7.6.2-all/8en97gaf649d34afk162o9j9e/gradle-7.6.2/lib/gradle-launcher-7.6.2.jar",
+    "java.vm.vendor" : "Azul Systems, Inc.",
+    "buildInfo.env.ARTIFACTORY_USER" : "hl",
+    "user.variant" : "",
+    "user.timezone" : "",
+    "psi.track.invalidation" : "true",
+    "idea.ignore.disabled.plugins" : "true",
+    "os.name" : "Mac OS X",
+    "java.vm.specification.version" : "11",
+    "buildInfo.env.HOMEBREW_CELLAR" : "/opt/homebrew/Cellar",
+    "user.country" : "CN",
+    "sun.java.launcher" : "SUN_STANDARD",
+    "sun.cpu.endian" : "little",
+    "user.home" : "/Users/hailangz",
+    "user.language" : "en",
+    "org.gradle.appname" : "gradlew",
+    "buildInfo.env.GITLAB_HOME" : "/Users/hailangz/Desktop/work/env/gitlab",
+    "buildInfo.env.LC_CTYPE" : "UTF-8",
+    "idea.plugins.compatible.build" : "999.SNAPSHOT",
+    "java.awt.graphicsenv" : "sun.awt.CGraphicsEnvironment",
+    "buildInfo.env.LOGNAME" : "hailangz",
+    "buildInfo.env.PATH" : "/Users/hailangz/.sdkman/candidates/maven/current/bin:/Users/hailangz/.sdkman/candidates/java/current/bin:/Users/hailangz/.jenv/shims:/Users/hailangz/.jenv/bin:/opt/homebrew/opt/postgresql@13/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/anaconda3/bin:/Applications/Docker.app/Contents/Resources/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/hailangz/.orbstack/bin",
+    "buildInfo.env.XPC_FLAGS" : "0x0",
+    "buildInfo.env.LaunchInstanceID" : "46810189-9372-4196-B991-C83D96BB0707",
+    "path.separator" : ":",
+    "os.version" : "15.5",
+    "java.runtime.name" : "OpenJDK Runtime Environment",
+    "project.structure.add.tools.jar.to.new.jdk" : "false",
+    "buildInfo.env.USER" : "hailangz",
+    "java.vm.name" : "OpenJDK 64-Bit Server VM",
+    "buildInfo.env.__CFBundleIdentifier" : "com.apple.Terminal",
+    "buildInfo.env.SDKMAN_PLATFORM" : "darwinarm64",
+    "java.vendor.url.bug" : "http://www.azul.com/support/",
+    "user.dir" : "/Users/hailangz/Desktop/work/jfrog-learn/project-examples-master/gradle-examples/gradle-kts-example-publish",
+    "ide.hide.excluded.files" : "false",
+    "os.arch" : "aarch64",
+    "buildInfo.env.TMPDIR" : "/var/folders/wn/704rz51x7bdfywzw4bfx3fdh0000gn/T/",
+    "buildInfo.env.HOME" : "/Users/hailangz",
+    "java.vm.info" : "mixed mode",
+    "java.vm.version" : "11.0.28+6-LTS",
+    "buildInfo.env.SDKMAN_DIR" : "/Users/hailangz/.sdkman",
+    "buildInfo.env.TERM_PROGRAM_VERSION" : "455.1",
+    "java.class.version" : "55.0",
+    "buildInfo.env.SECURITYSESSIONID" : "186b6",
+    "ast.loading.filter" : "false"
+  },
+  "version" : "1.0.1",
+  "name" : "gradle-kts-example-publish",
+  "number" : "1764664662263",
+  "buildAgent" : {
+    "name" : "Gradle",
+    "version" : "7.6.2"
+  },
+  "agent" : {
+    "name" : "Gradle",
+    "version" : "7.6.2"
+  },
+  "started" : "2025-12-02T16:37:41.993+0800",
+  "durationMillis" : 2045,
+  "principal" : "hailangz",
+  "artifactoryPrincipal" : "hl",
+  "artifactoryPluginVersion" : "Unknown",
+  "vcs" : [ ],
+  "modules" : [ {
+    "type" : "gradle",
+    "id" : "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT",
+    "repository" : "zhl-gradle-virtual",
+    "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "498b2dd1a67262d693f43761f20517d339adb871",
+      "sha256" : "e1072d04018f9326f42ccba28c8a5fce420b2a64dcde0b9fd81a29d79f7ceecd",
+      "md5" : "91979f4b723bc77aba49e689f33fb91c",
+      "name" : "webservice-1.0-SNAPSHOT.pom",
+      "path" : "org/jfrog/test/gradle/publish/webservice/1.0-SNAPSHOT/webservice-1.0-SNAPSHOT.pom"
+    }, {
+      "type" : "jar",
+      "sha1" : "ac80d4ea7de22f32f32f8b205308cddd6ed644a2",
+      "sha256" : "06d7c1eeeaccc72e770270618801266a050100772a64c21acf97beb7aa48ce9a",
+      "md5" : "3f31a9b9abe63c68c5f78739f93cf5e9",
+      "name" : "webservice-1.0-SNAPSHOT.jar",
+      "path" : "org/jfrog/test/gradle/publish/webservice/1.0-SNAPSHOT/webservice-1.0-SNAPSHOT.jar"
+    }, {
+      "type" : "module",
+      "sha1" : "830f51c94c4613544d163b1db896fbf3c8031534",
+      "sha256" : "06758b705a5bae8b5c324429f20d5a232460283c3d0ed46cd5df2f3a4b1ebe2c",
+      "md5" : "d694997fb442087830b43ee6995f537f",
+      "name" : "webservice-1.0-SNAPSHOT.module",
+      "path" : "org/jfrog/test/gradle/publish/webservice/1.0-SNAPSHOT/webservice-1.0-SNAPSHOT.module"
+    }, {
+      "type" : "properties",
+      "sha1" : "dc07e35f151ead8f3b55797c4322e0da171089bb",
+      "sha256" : "b2952bc5468724a1aafe356d5b65575e81f3faf527828b68f0cb69cd3d10a0a7",
+      "md5" : "fd39160eea952c500943042f29d01a48",
+      "name" : "webservice-1.0-SNAPSHOT.properties",
+      "path" : "org/jfrog/test/gradle/publish/webservice/1.0-SNAPSHOT/webservice-1.0-SNAPSHOT.properties"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "886ffe7badde4308dcc4ec761ff8aed1f2b39be2",
+      "sha256" : "65e8a076d77cf23e93a9c5b51bb5be93873e74e41f9c4acc3b3c7804aaad0c41",
+      "md5" : "488099a967b2d1d1feb129829d2ad0ae",
+      "id" : "org.jfrog.test.gradle.publish:shared:1.0-SNAPSHOT",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f951934aa5ae5a88d7e6dfaa6d32307d834a88be",
+      "sha256" : "093fea360752de55afcb80cf713403eb1a66cb7dc0d529955b6f4a96f975df5c",
+      "md5" : "7b9216b608d550787bdf43a63d88bf3b",
+      "id" : "commons-collections:commons-collections:3.2",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0ad6ae511ca4608a18317fcb19850fd113bb2ae8",
+      "sha256" : "8d952b8badef1f92d0c401d58ea459bb0632d59ac02c19c1b48a552dfab9159d",
+      "md5" : "b0bf5f906af5a936992514ed087f1fa2",
+      "id" : "commons-io:commons-io:1.2",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "16313e02a793435009f1e458fa4af5d879f6fb11",
+      "sha256" : "2c73b940c91250bc98346926270f13a6a10bb6e29d2c9316a70d134e382c873e",
+      "md5" : "237a8e845441bad2e535c57d985c8204",
+      "id" : "commons-lang:commons-lang:2.4",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "14dd208c9077c462b813ed41c21c57f6a8153694",
+      "sha256" : "4c1663206e41df74d01c6669c34a2b9bbefe6b32d593a3a518309de2d41f7f5f",
+      "md5" : "4cad3d21b85b369c8b00dfb84e270e02",
+      "id" : "org.apache.wicket:wicket:1.3.7",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "d29ee47d8039328cd172e8de5e8d70e39549996a",
+      "sha256" : "685d9b547824d582bdbc071407346637e432e30f65b8541efb4e1b7ddd12ff93",
+      "md5" : "cf77cc0bd3b6c2bda353f5c7a659aa66",
+      "id" : "org.jfrog.test.gradle.publish:api:1.0-SNAPSHOT",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "61fce919969d134a4fa2ba4fd5bf151ea63fce13",
+      "sha256" : "7b61ec85ca6b6b3d0ecead9a378518f630df406269ab5cacd0be9c21dc27c297",
+      "md5" : "2d673736b993aa112fda47b9061e4e48",
+      "id" : "org.slf4j:slf4j-api:1.4.2",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.apache.wicket:wicket:1.3.7", "org.jfrog.test.gradle.publish:webservice:1.0-SNAPSHOT" ] ]
+    } ]
+  }, {
+    "type" : "gradle",
+    "id" : "org.jfrog.test.gradle.publish:api:1.0-SNAPSHOT",
+    "repository" : "zhl-gradle-virtual",
+    "artifacts" : [ {
+      "type" : "text-txt",
+      "sha1" : "c846dabb55981f71631640d8512111f59bf26cba",
+      "sha256" : "85d5f542f22336e73b4b7bbc7a2993bcc770d96cef9cdfcc82a33f602eda5af9",
+      "md5" : "1626d9fd47fa0999c0d3eefb8fe4e3da",
+      "name" : "api-1.0-SNAPSHOT.txt",
+      "path" : "org/jfrog/test/gradle/publish/api/1.0-SNAPSHOT/api-1.0-SNAPSHOT.txt"
+    }, {
+      "type" : "jar",
+      "sha1" : "d29ee47d8039328cd172e8de5e8d70e39549996a",
+      "sha256" : "685d9b547824d582bdbc071407346637e432e30f65b8541efb4e1b7ddd12ff93",
+      "md5" : "cf77cc0bd3b6c2bda353f5c7a659aa66",
+      "name" : "api-1.0-SNAPSHOT.jar",
+      "path" : "org/jfrog/test/gradle/publish/api/1.0-SNAPSHOT/api-1.0-SNAPSHOT.jar"
+    }, {
+      "type" : "module",
+      "sha1" : "fad8b74d3b5010c022521b05154afb1f77f736b5",
+      "sha256" : "5a05008810d8bcc8c985156371fe2a6a562e6e2dd356e503f976f56c728a0f6e",
+      "md5" : "30c1ae2a2dfe7a6501c15a6f2e9485cd",
+      "name" : "api-1.0-SNAPSHOT.module",
+      "path" : "org/jfrog/test/gradle/publish/api/1.0-SNAPSHOT/api-1.0-SNAPSHOT.module"
+    }, {
+      "type" : "pom",
+      "sha1" : "57ed229d680d85afb39c0cb796f16a5d82e6e870",
+      "sha256" : "59a36943437337df71d82feada2ebd0cd8824e1a8402d9ad4e64b474aa050589",
+      "md5" : "447aba0ee010cfa5b8619fb505583c64",
+      "name" : "api-1.0-SNAPSHOT.pom",
+      "path" : "org/jfrog/test/gradle/publish/api/1.0-SNAPSHOT/api-1.0-SNAPSHOT.pom"
+    }, {
+      "type" : "ivy",
+      "sha1" : "c94fa1ded1c5c889d4ca61912190fdf9bea1db0e",
+      "sha256" : "0366b3566fa4585644dae812633016696c16c4ec55cef4f75207520d8b983329",
+      "md5" : "e7283dee1fdcd69dbd471081955c04e1",
+      "name" : "ivy-1.0-SNAPSHOT.xml",
+      "path" : "org/jfrog/test/gradle/publish/api/ivy-1.0-SNAPSHOT.xml"
+    }, {
+      "type" : "properties",
+      "sha1" : "dc07e35f151ead8f3b55797c4322e0da171089bb",
+      "sha256" : "b2952bc5468724a1aafe356d5b65575e81f3faf527828b68f0cb69cd3d10a0a7",
+      "md5" : "fd39160eea952c500943042f29d01a48",
+      "name" : "api-1.0-SNAPSHOT.properties",
+      "path" : "org/jfrog/test/gradle/publish/api/1.0-SNAPSHOT/api-1.0-SNAPSHOT.properties"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "886ffe7badde4308dcc4ec761ff8aed1f2b39be2",
+      "sha256" : "65e8a076d77cf23e93a9c5b51bb5be93873e74e41f9c4acc3b3c7804aaad0c41",
+      "md5" : "488099a967b2d1d1feb129829d2ad0ae",
+      "id" : "org.jfrog.test.gradle.publish:shared:1.0-SNAPSHOT",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:api:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "16313e02a793435009f1e458fa4af5d879f6fb11",
+      "sha256" : "2c73b940c91250bc98346926270f13a6a10bb6e29d2c9316a70d134e382c873e",
+      "md5" : "237a8e845441bad2e535c57d985c8204",
+      "id" : "commons-lang:commons-lang:2.4",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:api:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0ad6ae511ca4608a18317fcb19850fd113bb2ae8",
+      "sha256" : "8d952b8badef1f92d0c401d58ea459bb0632d59ac02c19c1b48a552dfab9159d",
+      "md5" : "b0bf5f906af5a936992514ed087f1fa2",
+      "id" : "commons-io:commons-io:1.2",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:api:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "14dd208c9077c462b813ed41c21c57f6a8153694",
+      "sha256" : "4c1663206e41df74d01c6669c34a2b9bbefe6b32d593a3a518309de2d41f7f5f",
+      "md5" : "4cad3d21b85b369c8b00dfb84e270e02",
+      "id" : "org.apache.wicket:wicket:1.3.7",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.jfrog.test.gradle.publish:api:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "61fce919969d134a4fa2ba4fd5bf151ea63fce13",
+      "sha256" : "7b61ec85ca6b6b3d0ecead9a378518f630df406269ab5cacd0be9c21dc27c297",
+      "md5" : "2d673736b993aa112fda47b9061e4e48",
+      "id" : "org.slf4j:slf4j-api:1.4.2",
+      "scopes" : [ "compileClasspath" ],
+      "requestedBy" : [ [ "org.apache.wicket:wicket:1.3.7", "org.jfrog.test.gradle.publish:api:1.0-SNAPSHOT" ] ]
+    } ]
+  }, {
+    "type" : "gradle",
+    "id" : "org.jfrog.test.gradle.publish:shared:1.0-SNAPSHOT",
+    "repository" : "zhl-gradle-virtual",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "886ffe7badde4308dcc4ec761ff8aed1f2b39be2",
+      "sha256" : "65e8a076d77cf23e93a9c5b51bb5be93873e74e41f9c4acc3b3c7804aaad0c41",
+      "md5" : "488099a967b2d1d1feb129829d2ad0ae",
+      "name" : "shared-1.0-SNAPSHOT.jar",
+      "path" : "org/jfrog/test/gradle/publish/shared/1.0-SNAPSHOT/shared-1.0-SNAPSHOT.jar"
+    }, {
+      "type" : "properties",
+      "sha1" : "dc07e35f151ead8f3b55797c4322e0da171089bb",
+      "sha256" : "b2952bc5468724a1aafe356d5b65575e81f3faf527828b68f0cb69cd3d10a0a7",
+      "md5" : "fd39160eea952c500943042f29d01a48",
+      "name" : "shared-1.0-SNAPSHOT.properties",
+      "path" : "org/jfrog/test/gradle/publish/shared/1.0-SNAPSHOT/shared-1.0-SNAPSHOT.properties"
+    }, {
+      "type" : "pom",
+      "sha1" : "488453ff31f477d17591c58db62c5f8324c30ca4",
+      "sha256" : "8c767759a7d88368e3eba5cef33428a14ac0c607643325af1b6259d7d7cd69e3",
+      "md5" : "97fe9aa4570618252ddad45e484f950e",
+      "name" : "shared-1.0-SNAPSHOT.pom",
+      "path" : "org/jfrog/test/gradle/publish/shared/1.0-SNAPSHOT/shared-1.0-SNAPSHOT.pom"
+    }, {
+      "type" : "module",
+      "sha1" : "876944777fd909deca10c0bac34be99a4a4c3350",
+      "sha256" : "4b5dded95a1725681d462297564680b0d3c6fb816f9d974d8953c0a311dbca10",
+      "md5" : "76ecde32b542a388f9135e7a01678ef8",
+      "name" : "shared-1.0-SNAPSHOT.module",
+      "path" : "org/jfrog/test/gradle/publish/shared/1.0-SNAPSHOT/shared-1.0-SNAPSHOT.module"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ ]
+  } ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jfrog.test.gradle.publish",
+    "module": "api",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "api-1.0-SNAPSHOT.jar",
+          "url": "api-1.0-SNAPSHOT.jar",
+          "size": 1781,
+          "sha512": "4eeb7282ce1e9158627280293a4433cd591d72efd87bfc396dd25d466ae723ad528afe4dadcca60318d02f90944f0bc08200d19138b0336143894b8d825c1e00",
+          "sha256": "685d9b547824d582bdbc071407346637e432e30f65b8541efb4e1b7ddd12ff93",
+          "sha1": "d29ee47d8039328cd172e8de5e8d70e39549996a",
+          "md5": "cf77cc0bd3b6c2bda353f5c7a659aa66"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jfrog.test.gradle.publish",
+          "module": "shared",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.apache.wicket",
+          "module": "wicket",
+          "version": {
+            "requires": "1.3.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-1.0-SNAPSHOT.jar",
+          "url": "api-1.0-SNAPSHOT.jar",
+          "size": 1781,
+          "sha512": "4eeb7282ce1e9158627280293a4433cd591d72efd87bfc396dd25d466ae723ad528afe4dadcca60318d02f90944f0bc08200d19138b0336143894b8d825c1e00",
+          "sha256": "685d9b547824d582bdbc071407346637e432e30f65b8541efb4e1b7ddd12ff93",
+          "sha1": "d29ee47d8039328cd172e8de5e8d70e39549996a",
+          "md5": "cf77cc0bd3b6c2bda353f5c7a659aa66"
+        }
+      ]
+    }
+  ]
+}
