@@ -24,8 +24,8 @@ allprojects {
             url = uri("https://demo.jfrogchina.com/artifactory/zhl-gradle-virtual")
             credentials {
                 // 从与发布任务相同的地方读取凭证
-                username = providers.gradleProperty("ARTIFACTORY_USER").orNull
-                password = providers.gradleProperty("JFROG_ACCESS_TOKEN").orNull
+                username = providers.environmentVariable("ARTIFACTORY_USER").orNull
+                password = providers.environmentVariable("JFROG_ACCESS_TOKEN").orNull
             }
         }
     }
@@ -95,8 +95,8 @@ configure<org.jfrog.gradle.plugin.artifactory.dsl.ArtifactoryPluginConvention> {
     publish {
         repository {
             setRepoKey("zhl-gradle-virtual") // The Artifactory repository key to publish to
-            setUsername(providers.gradleProperty("ARTIFACTORY_USER").orNull) // The publisher user name
-            setPassword(providers.gradleProperty("JFROG_ACCESS_TOKEN").orNull) // The publisher password
+            setUsername(providers.environmentVariable("ARTIFACTORY_USER").orNull) // The publisher user name
+            setPassword(providers.environmentVariable("JFROG_ACCESS_TOKEN").orNull) // The publisher password
             // This is an optional section for configuring Ivy publication (when publishIvy = true).
             ivy {
                 setIvyLayout("[organization]/[module]/ivy-[revision].xml")

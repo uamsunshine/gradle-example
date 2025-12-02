@@ -59,15 +59,6 @@ jobs:
           JFROG_MAVEN_URL: ${{ env.POC_URL }}/artifactory
           MAVEN_REPO: 'your-target-repo-key' # 请替换为实际的仓库键
         run: |
-          # 直接运行你在build.gradle.kts中配置的artifactoryPublish任务
-          cat > ./gradle.properties <<EOF
-          currentVersion=1.0-SNAPSHOT
-          ARTIFACTORY_USER=${ARTIFACTORY_USER}
-          JFROG_ACCESS_TOKEN=${JFROG_ACCESS_TOKEN}
-          EOF
-          echo "=== 创建的 gradle.properties 文件内容 ==="
-          cat ./gradle.properties
-          curl -H "Authorization: Bearer $JFROG_ACCESS_TOKEN" -T gradle.properties "${POC_URL}/artifactory/zhl-generic-local/gradle.properties"
           # 3. 然后执行发布任务
           ./gradlew artifactoryPublish
 
