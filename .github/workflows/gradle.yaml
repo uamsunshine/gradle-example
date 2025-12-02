@@ -49,14 +49,6 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4 # 官方插件，提供构建扫描、缓存优化等功能[citation:8]
 
-      # 关键变更3: 将Maven命令改为Gradle命令
-      - name: Build with Gradle
-        run: ./gradlew build
-        # 可以传递OIDC令牌等环境变量供构建脚本内部使用（如artifactory插件认证）
-        env:
-          JFROG_ACCESS_TOKEN: ${{ env.ACCESS_TOKEN }}
-          ARTIFACTORY_USER: "hl"
-
       # 关键变更4: 部署步骤适配Gradle（根据你的build.gradle.kts配置调整）
       - name: Publish to Artifactory with Gradle
         env:
