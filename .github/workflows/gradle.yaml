@@ -55,9 +55,6 @@ jobs:
           # 将OIDC交换得到的访问令牌传递给Gradle任务
           JFROG_ACCESS_TOKEN: ${{ env.ACCESS_TOKEN }}
           ARTIFACTORY_USER: admin
-          # 设置Artifactory URL和仓库，需与build.gradle.kts中的配置对应
-          JFROG_MAVEN_URL: ${{ env.POC_URL }}/artifactory
-          MAVEN_REPO: 'your-target-repo-key' # 请替换为实际的仓库键
         run: |
           # 3. 然后执行发布任务
           ./gradlew artifactoryPublish
