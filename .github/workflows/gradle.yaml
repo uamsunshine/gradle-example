@@ -60,5 +60,4 @@ jobs:
           MAVEN_REPO: 'your-target-repo-key' # 请替换为实际的仓库键
         run: |
           # 直接运行你在build.gradle.kts中配置的artifactoryPublish任务
-          ./gradlew artifactoryPublish
           printenv
